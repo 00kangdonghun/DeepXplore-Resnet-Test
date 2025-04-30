@@ -1,0 +1,14 @@
+name: deepxplore-env
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=1.13.0
+  - torchvision=0.14.0
+  # - cudatoolkit=11.6  # GPU 사용 시 (없어도 무방)
+  - pip:
+      - numpy
+      - matplotlib
+      - tqdm
